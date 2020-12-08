@@ -1,3 +1,5 @@
+
+/* Navbar customization */
 .navbar-custom {
     background-image: linear-gradient(-90deg,#d38312,#a83279);
 }
@@ -39,3 +41,43 @@
     color: #eee;
     border-bottom: 1px solid #fff;
 }
+
+
+
+/* Since navbar is fixed-top, this pushes content below navbar */
+.container{
+    margin-top: 100px;
+}
+
+
+
+/* Portfolio customization */
+.portfolio-custom{
+    background-color: rgba(255,255,255,.7);
+    padding: 30px;
+}
+
+.portfolio-custom img {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    padding: 3px;
+    display: block;
+    margin: 15px auto;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../images/Rowing_SE_Regionals_Crop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
