@@ -1,0 +1,41 @@
+.navbar-custom {
+    background-image: linear-gradient(-90deg,#d38312,#a83279);
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.navbar .navbar-toggler {
+    margin-right: 20px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.navbar .navbar-toggler:hover{
+    border: 1px solid white;
+}
+
+.nav-link {
+    color: #ccc;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-item.active .nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #eee;
+    border-bottom: 1px solid #fff;
+}
