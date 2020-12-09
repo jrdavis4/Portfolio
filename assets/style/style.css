@@ -47,12 +47,7 @@
 }
 
 
-/* Portfolio customization */
-.portfolio-custom{
-    background-color: rgba(255,255,255,.6);
-    padding: 30px;
-}
-
+/* Portfolio */
 .portfolio-custom img {
     border: 1px solid black;
     padding: 3px;
@@ -60,6 +55,15 @@
     margin: 15px auto;
 }
 
+/* About me */
+.index-custom img{
+    float: left;
+    margin: 15px 30px 15px 15px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 3px;
+}
 
 /* General */
 h1 {
@@ -78,6 +82,10 @@ body{
     margin-bottom: 100px;
 }
 
+.portfolio-custom, .form-custom, .index-custom{
+    background-color: rgba(255,255,255,.6);
+    padding: 30px;
+}
 /* Footer */
 .nav-footer{
     background-color: #722252;
@@ -89,9 +97,7 @@ body{
     color: white;
 }
 
-
-/* Forms */
-.form-custom{
-    background-color: rgba(255,255,255,.6);
-    padding: 15px;
+.social{
+    margin-left: 20px;
+    color: white;
 }
