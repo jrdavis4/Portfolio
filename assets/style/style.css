@@ -86,6 +86,7 @@ body{
     background-color: rgba(255,255,255,.6);
     padding: 30px;
 }
+
 /* Footer */
 .nav-footer{
     background-color: #722252;
@@ -98,6 +99,14 @@ body{
 }
 
 .social{
-    margin-left: 20px;
+    margin-left: 10px;
     color: white;
 }
+
+/* Media query used because text wrapping on profile is very awkward at small threshold. Used to push text under image sooner. */
+
+@media only screen and (max-width: 600px) {
+    .index-custom img {
+      float: none;
+    }
+  }
