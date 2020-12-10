@@ -74,7 +74,7 @@ h1 {
 body{
     background-image: url(../images/Rowing_SE_Regionals_Crop.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-y: scroll;
