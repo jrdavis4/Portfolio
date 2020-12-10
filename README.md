@@ -10,7 +10,7 @@ The goal of this project is to design my first ever website. It will act as my p
 
 ## PREVIEW
 
-![Preview of website](assets/images/screenshot.png)
+![Preview of website](assets/images/screenshot.PNG)
 
 ## License
 
